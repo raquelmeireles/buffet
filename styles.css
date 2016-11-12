@@ -1,0 +1,37 @@
+/* Master Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+
+footer{
+  position: relative;
+}
+
+#footer-text{
+  position: absolute;
+  left: 52%;
+  top: 30%;
+  margin-left: -300px;
+  font-size: 11px;
+  line-height: 16px;
+  color: #678889;
+  text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+}
+
+.ng-valid[required], .ng-valid.required {
+  border-left: 5px solid #42A948;
+}
+
+.ng-invalid:not(form) {
+  border-left: 5px solid #a94442;
+}
